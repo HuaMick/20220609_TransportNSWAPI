@@ -6,7 +6,7 @@ response = requests.get(
 json_response = response.json()
 
 import pickle
-with open('20220611.pickle', 'wb') as handle:
+with open('json_response.pickle', 'wb') as handle:
     pickle.dump(json_response, handle, protocol=pickle.HIGHEST_PROTOCOL)
 with open('20220611.pickle', 'rb') as handle:
     json_response = pickle.load(handle)
