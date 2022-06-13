@@ -3,7 +3,7 @@ import controller
 import pandas as pd
 
 import streamlit as st
-from pandas_profiling import ProfileReport
+#from pandas_profiling import ProfileReport
 
 APPINFO = st.container()
 APPINFO.subheader('Application Info')
